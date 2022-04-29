@@ -1,0 +1,67 @@
+global_vars:
+  - name: matchpath
+    type: echo
+    params:
+      echo: "C:\\Users\\davtes\\AppData\\Roaming\\espanso\\match\\"
+  - name: configpath
+    type: echo
+    params:
+      echo: "C:\\Users\\davtes\\AppData\\Roaming\\espanso\\config\\"
+
+matches:
+  - trigger: ":makeCode"
+    replace: "{{shellCommand1}}{{shellCommand2}}"
+    vars:
+      - name: "form1"
+        type: form
+        params:
+          layout: |
+                Inserisci il nome del file: [[nome]]
+                  Inserisci il nome del titolo: [[titolo]]
+                  Inserisci il nome del workdir: [[workdir]]
+      - name: shellCommand1
+        type: shell
+        params:
+          cmd: |
+            echo 'filter_exec: "code.exe|Code.exe|eclipse.exe|Eclipse.exe"
+            filter_title: "{{form1.titolo}}"
+            includes:
+              - "../match/_basecode.yml"
+              - "../match/_{{form1.nome}}.yml"' | Set-Content -Encoding utf8 {{configpath}}{{form1.nome}}.yml
+      - name: shellCommand2
+        type: shell
+        params:
+          cmd: |
+            echo 'global_vars:
+            - name: workdir
+              type: echo
+              params:
+                echo: "{{form1.workdir}}"' | Set-Content -Encoding utf8 {{matchpath}}_{{form1.nome}}.yml
+
+  - trigger: ":date"
+    replace: "{{date}}"
+    vars:
+      - name: date
+        type: date
+        params:
+          format: "%d/%m/%Y"
+
+  - triggers: [":time", ":hour"]
+    replace: "{{hour}} | {{date}}"
+    vars:
+      - name: hour
+        type: date
+        params:
+          format: "%H::%M"
+      - name: date
+        type: date
+        params:
+          format: "%d/%m/%Y"
+
+  - trigger: ":ip"
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: shell
+        params:
+          cmd: "ipconfig getifaddr en0"

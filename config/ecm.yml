@@ -1,0 +1,5 @@
+filter_exec: "code.exe|Code.exe|eclipse.exe|Eclipse.exe"
+filter_title: "ecm-viewer-angular"
+includes:
+  - "../match/_basecode.yml"
+  - "../match/_ecm.yml"

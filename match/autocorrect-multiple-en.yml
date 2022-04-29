@@ -1,0 +1,1650 @@
+parent: base
+name: autocorrect-multiple
+
+matches:
+  - trigger: shoudln
+    replace: should
+    word: true
+    propagate_case: true
+  - trigger: shoudln
+    replace: shouldn't
+    word: true
+    propagate_case: true
+  - trigger: withdrawl
+    replace: withdrawal
+    word: true
+    propagate_case: true
+  - trigger: withdrawl
+    replace: withdraw
+    word: true
+    propagate_case: true
+  - trigger: turnk
+    replace: turnkey
+    word: true
+    propagate_case: true
+  - trigger: turnk
+    replace: trunk
+    word: true
+    propagate_case: true
+  - trigger: unmanouverable
+    replace: unmaneuverable
+    word: true
+    propagate_case: true
+  - trigger: unmanouverable
+    replace: unmanoeuvrable
+    word: true
+    propagate_case: true
+  - trigger: weild
+    replace: wield
+    word: true
+    propagate_case: true
+  - trigger: weild
+    replace: wild
+    word: true
+    propagate_case: true
+  - trigger: wich
+    replace: which
+    word: true
+    propagate_case: true
+  - trigger: wich
+    replace: witch
+    word: true
+    propagate_case: true
+  - trigger: troups
+    replace: troupes
+    word: true
+    propagate_case: true
+  - trigger: troups
+    replace: troops
+    word: true
+    propagate_case: true
+  - trigger: unsed
+    replace: used
+    word: true
+    propagate_case: true
+  - trigger: unsed
+    replace: unused, unsaid
+    word: true
+    propagate_case: true
+  - trigger: wholy
+    replace: wholly
+    word: true
+    propagate_case: true
+  - trigger: wholy
+    replace: holy
+    word: true
+    propagate_case: true
+  - trigger: vigeur
+    replace: vigueur
+    word: true
+    propagate_case: true
+  - trigger: vigeur
+    replace: vigour, vigor
+    word: true
+    propagate_case: true
+  - trigger: villin
+    replace: villi
+    word: true
+    propagate_case: true
+  - trigger: villin
+    replace: villain, villein
+    word: true
+    propagate_case: true
+  - trigger: thast
+    replace: that
+    word: true
+    propagate_case: true
+  - trigger: thast
+    replace: that's
+    word: true
+    propagate_case: true
+  - trigger: countrie
+    replace: countries
+    word: true
+    propagate_case: true
+  - trigger: countrie
+    replace: country's
+    word: true
+    propagate_case: true
+  - trigger: countrie
+    replace: countries'
+    word: true
+    propagate_case: true
+  - trigger: surrended
+    replace: surrounded
+    word: true
+    propagate_case: true
+  - trigger: surrended
+    replace: surrendered
+    word: true
+    propagate_case: true
+  - trigger: surley
+    replace: surly
+    word: true
+    propagate_case: true
+  - trigger: surley
+    replace: surely
+    word: true
+    propagate_case: true
+  - trigger: accension
+    replace: accession
+    word: true
+    propagate_case: true
+  - trigger: accension
+    replace: ascension
+    word: true
+    propagate_case: true
+  - trigger: achive
+    replace: achieve
+    word: true
+    propagate_case: true
+  - trigger: achive
+    replace: archive
+    word: true
+    propagate_case: true
+  - trigger: achived
+    replace: achieved
+    word: true
+    propagate_case: true
+  - trigger: achived
+    replace: archived
+    word: true
+    propagate_case: true
+  - trigger: ackward
+    replace: awkward
+    word: true
+    propagate_case: true
+  - trigger: ackward
+    replace: backward
+    word: true
+    propagate_case: true
+  - trigger: addres
+    replace: address
+    word: true
+    propagate_case: true
+  - trigger: addres
+    replace: adders
+    word: true
+    propagate_case: true
+  - trigger: adressing
+    replace: addressing
+    word: true
+    propagate_case: true
+  - trigger: adressing
+    replace: dressing
+    word: true
+    propagate_case: true
+  - trigger: agina
+    replace: again
+    word: true
+    propagate_case: true
+  - trigger: agina
+    replace: angina
+    word: true
+    propagate_case: true 
+  - trigger: affort
+    replace: afford
+    word: true
+    propagate_case: true
+  - trigger: affort
+    replace: effort
+    word: true
+    propagate_case: true
+  - trigger: alot
+    replace: lot
+    word: true
+    propagate_case: true
+  - trigger: alot
+    replace: allot
+    word: true
+    propagate_case: true
+  - trigger: alusion
+    replace: allusion
+    word: true
+    propagate_case: true
+  - trigger: alusion
+    replace: illusion
+    word: true
+    propagate_case: true
+  - trigger: amature
+    replace: armature
+    word: true
+    propagate_case: true
+  - trigger: amature
+    replace: amateur
+    word: true
+    propagate_case: true
+  - trigger: procede
+    replace: proceed
+    word: true
+    propagate_case: true
+  - trigger: procede
+    replace: precede
+    word: true
+    propagate_case: true
+  - trigger: proceded
+    replace: proceeded
+    word: true
+    propagate_case: true
+  - trigger: proceded
+    replace: preceded
+    word: true
+    propagate_case: true
+  - trigger: procedes
+    replace: proceeds
+    word: true
+    propagate_case: true
+  - trigger: procedes
+    replace: precedes
+    word: true
+    propagate_case: true
+  - trigger: transcripting
+    replace: transcribing
+    word: true
+    propagate_case: true
+  - trigger: transcripting
+    word: true
+    propagate_case: true
+    replace:  transcription
+  - trigger: speciallized
+    replace: specialised
+    word: true
+    propagate_case: true
+  - trigger: speciallized
+    replace: specialised
+    word: true
+    propagate_case: true
+  - trigger: specif
+    replace: specific
+    word: true
+    propagate_case: true
+  - trigger: specif
+    replace: specify
+    word: true
+    propagate_case: true
+  - trigger: spects
+    replace: aspects
+    word: true
+    propagate_case: true
+  - trigger: spects
+    replace: expects
+    word: true
+    propagate_case: true
+  - trigger: stroy
+    replace: story
+    word: true
+    propagate_case: true
+  - trigger: stroy
+    replace: destroy
+    word: true
+    propagate_case: true
+  - trigger: ther
+    replace: there
+    word: true
+    propagate_case: true
+  - trigger: ther
+    replace: their, the
+    word: true
+    propagate_case: true
+  - trigger: thikning
+    replace: thinking
+    word: true
+    propagate_case: true
+  - trigger: thikning
+    replace: thickening
+    word: true
+    propagate_case: true
+  - trigger: throught
+    replace: thought
+    word: true
+    propagate_case: true
+  - trigger: throught
+    replace: through, throughout
+    word: true
+    propagate_case: true
+  - trigger: tiem
+    replace: time
+    word: true
+    propagate_case: true
+  - trigger: tiem
+    replace: Tim
+    word: true
+    propagate_case: true
+  - trigger: tiome
+    replace: time
+    word: true
+    propagate_case: true
+  - trigger: tiome
+    replace: tome
+    word: true
+    propagate_case: true
+  - trigger: sotyr
+    replace: satyr
+    word: true
+    propagate_case: true
+  - trigger: sotyr
+    replace: story
+    word: true
+    propagate_case: true
+  - trigger: sould
+    replace: could
+    word: true
+    propagate_case: true
+  - trigger: sould
+    replace: should, sold, soul
+    word: true
+    propagate_case: true
+  - trigger: tourch
+    replace: torch
+    word: true
+    propagate_case: true
+  - trigger: tourch
+    replace: touch
+    word: true
+    propagate_case: true
+  - trigger: strat
+    replace: start
+    word: true
+    propagate_case: true
+  - trigger: strat
+    replace: strata
+    word: true
+    propagate_case: true
+  - trigger: personel
+    replace: personnel
+    word: true
+    propagate_case: true
+  - trigger: personel
+    replace: personal
+    word: true
+    propagate_case: true
+  - trigger: positon
+    replace: position
+    word: true
+    propagate_case: true
+  - trigger: positon
+    replace: positron
+    word: true
+    propagate_case: true
+  - trigger: proceding
+    replace: proceeding
+    word: true
+    propagate_case: true
+  - trigger: proceding
+    replace: preceding
+    word: true
+    propagate_case: true
+  - trigger: profesion
+    replace: profusion
+    word: true
+    propagate_case: true
+  - trigger: profesion
+    replace: profession
+    word: true
+    propagate_case: true
+  - trigger: progrom
+    replace: pogrom
+    word: true
+    propagate_case: true
+  - trigger: progrom
+    replace: program
+    word: true
+    propagate_case: true
+  - trigger: progroms
+    replace: pogroms
+    word: true
+    propagate_case: true
+  - trigger: progroms
+    replace: programs
+    word: true
+    propagate_case: true
+  - trigger: prominately
+    replace: prominently
+    word: true
+    propagate_case: true
+  - trigger: prominately
+    replace: predominately
+    word: true
+    propagate_case: true
+  - trigger: qtuie
+    replace: quite
+    word: true
+    propagate_case: true
+  - trigger: qtuie
+    replace: quiet
+    word: true
+    propagate_case: true
+  - trigger: qutie
+    replace: quite
+    word: true
+    propagate_case: true
+  - trigger: qutie
+    replace: quiet
+    word: true
+    propagate_case: true
+  - trigger: refernce
+    replace: reference
+    word: true
+    propagate_case: true
+  - trigger: refernce
+    replace: references
+    word: true
+    propagate_case: true
+  - trigger: relized
+    replace: realised
+    word: true
+    propagate_case: true
+  - trigger: relized
+    replace: realized
+    word: true
+    propagate_case: true
+  - trigger: repatition
+    replace: repetition
+    word: true
+    propagate_case: true
+  - trigger: repatition
+    replace: repartition
+    word: true
+    propagate_case: true
+  - trigger: restraunt
+    replace: restraint
+    word: true
+    propagate_case: true
+  - trigger: restraunt
+    replace: restaurant
+    word: true
+    propagate_case: true
+  - trigger: rigeur
+    replace: rigueur
+    word: true
+    propagate_case: true
+  - trigger: rigeur
+    replace: rigour, rigor
+    word: true
+    propagate_case: true
+  - trigger: rised
+    replace: raised
+    word: true
+    propagate_case: true
+  - trigger: rised
+    replace: rose
+    word: true
+    propagate_case: true
+  - trigger: sasy
+    replace: says
+    word: true
+    propagate_case: true
+  - trigger: sasy
+    replace: sassy
+    word: true
+    propagate_case: true
+  - trigger: scholarstic
+    replace: scholastic
+    word: true
+    propagate_case: true
+  - trigger: scholarstic
+    replace: scholarly
+    word: true
+    propagate_case: true
+  - trigger: secceeded
+    replace: seceded
+    word: true
+    propagate_case: true
+  - trigger: secceeded
+    replace: succeeded
+    word: true
+    propagate_case: true
+  - trigger: seceed
+    replace: succeed
+    word: true
+    propagate_case: true
+  - trigger: seceed
+    replace: secede
+    word: true
+    propagate_case: true
+  - trigger: seceeded
+    replace: succeeded
+    word: true
+    propagate_case: true
+  - trigger: seceeded
+    replace: seceded
+    word: true
+    propagate_case: true
+  - trigger: sence
+    replace: sense
+    word: true
+    propagate_case: true
+  - trigger: sence
+    replace: since
+    word: true
+    propagate_case: true
+  - trigger: sepulchure
+    replace: sepulchre
+    word: true
+    propagate_case: true
+  - trigger: sepulchure
+    replace: sepulcher
+    word: true
+    propagate_case: true
+  - trigger: sepulcre
+    replace: sepulchre
+    word: true
+    propagate_case: true
+  - trigger: sepulcre
+    replace: sepulcher
+    word: true
+    propagate_case: true
+  - trigger: shamen
+    replace: shaman
+    word: true
+    propagate_case: true
+  - trigger: shamen
+    replace: shamans
+    word: true
+    propagate_case: true
+  - trigger: sheat
+    replace: sheath
+    word: true
+    propagate_case: true
+  - trigger: sheat
+    replace: sheet, cheat
+    word: true
+    propagate_case: true
+  - trigger: coorperation
+    replace: cooperation
+    word: true
+    propagate_case: true
+  - trigger: coorperation
+    replace: corporation
+    word: true
+    propagate_case: true
+  - trigger: coudl
+    replace: could
+    word: true
+    propagate_case: true
+  - trigger: coudl
+    replace: cloud
+    word: true
+    propagate_case: true
+  - trigger: councellor
+    replace: councillor
+    word: true
+    propagate_case: true
+  - trigger: councellor
+    replace: counselor, councilor
+    word: true
+    propagate_case: true
+  - trigger: councellors
+    replace: councillors
+    word: true
+    propagate_case: true
+  - trigger: councellors
+    replace: counselors, councilors
+    word: true
+    propagate_case: true
+  - trigger: coururier
+    replace: courier
+    word: true
+    propagate_case: true
+  - trigger: coururier
+    replace: couturier
+    word: true
+    propagate_case: true
+  - trigger: coverted
+    replace: converted
+    word: true
+    propagate_case: true
+  - trigger: coverted
+    replace: covered, coveted
+    word: true
+    propagate_case: true
+  - trigger: cpoy
+    replace: coy
+    word: true
+    propagate_case: true
+  - trigger: cpoy
+    replace: copy
+    word: true
+    propagate_case: true
+  - trigger: critising
+    replace: criticising
+    word: true
+    propagate_case: true
+  - trigger: critising
+    replace: criticizing
+    word: true
+    propagate_case: true
+  - trigger: critisize
+    replace: criticise
+    word: true
+    propagate_case: true
+  - trigger: critisize
+    replace: criticize
+    word: true
+    propagate_case: true
+  - trigger: critisized
+    replace: criticised
+    word: true
+    propagate_case: true
+  - trigger: critisized
+    replace: criticized
+    word: true
+    propagate_case: true
+  - trigger: critisizes
+    replace: criticises
+    word: true
+    propagate_case: true
+  - trigger: critisizes
+    replace: criticizes
+    word: true
+    propagate_case: true
+  - trigger: critisizing
+    replace: criticising
+    word: true
+    propagate_case: true
+  - trigger: critisizing
+    replace: criticizing
+    word: true
+    propagate_case: true
+  - trigger: maked
+    replace: marked
+    word: true
+    propagate_case: true
+  - trigger: maked
+    replace: made
+    word: true
+    propagate_case: true
+  - trigger: managable
+    replace: manageable
+    word: true
+    propagate_case: true
+  - trigger: managable
+    replace: manageably
+    word: true
+    propagate_case: true
+  - trigger: manouver
+    replace: maneuver
+    word: true
+    propagate_case: true
+  - trigger: manouver
+    replace: manoeuvre
+    word: true
+    propagate_case: true
+  - trigger: manouverability
+    replace: maneuverability
+    word: true
+    propagate_case: true
+  - trigger: manouverability
+    replace: maneuverability
+    word: true
+    propagate_case: true
+    # manoeuvrability, manoeuverability
+  - trigger: manouverable
+    replace: maneuverable
+    word: true
+    propagate_case: true
+  - trigger: manoeuvrable
+    replace: maneuverable
+    word: true
+    propagate_case: true
+  - trigger: manouvers
+    replace: maneuvers
+    word: true
+    propagate_case: true
+  - trigger: manouvers
+    replace: manoeuvres
+    word: true
+    propagate_case: true
+  - trigger: manuever
+    replace: maneuver
+    word: true
+    propagate_case: true
+  - trigger: manuever
+    replace: manoeuvre
+    word: true
+    propagate_case: true
+  - trigger: manuevers
+    replace: maneuvers
+    word: true
+    propagate_case: true
+  - trigger: manuevers
+    replace: manoeuvres
+    word: true
+    propagate_case: true
+  - trigger: mear
+    replace: wear
+    word: true
+    propagate_case: true
+  - trigger: mear
+    replace: mere, mare
+    word: true
+    propagate_case: true
+  - trigger: meranda
+    replace: veranda
+    word: true
+    propagate_case: true
+  - trigger: meranda
+    replace: Miranda
+    word: true
+    propagate_case: true
+  - trigger: monestary
+    replace: monastery
+    word: true
+    propagate_case: true
+  - trigger: monestary
+    replace: monetary
+    word: true
+    propagate_case: true
+  - trigger: muscels
+    replace: mussels
+    word: true
+    propagate_case: true
+  - trigger: muscels
+    replace: muscles
+    word: true
+    propagate_case: true
+  - trigger: neice
+    replace: niece
+    word: true
+    propagate_case: true
+  - trigger: neice
+    replace: nice
+    word: true
+    propagate_case: true
+  - trigger: neigbour
+    replace: neighbour
+    word: true
+    propagate_case: true
+  - trigger: neigbour
+    replace: neighbor
+    word: true
+    propagate_case: true
+  - trigger: neigbouring
+    replace: neighbouring
+    word: true
+    propagate_case: true
+  - trigger: neigbouring
+    replace: neighboring
+    word: true
+    propagate_case: true
+  - trigger: neigbours
+    replace: neighbours
+    word: true
+    propagate_case: true
+  - trigger: neigbours
+    replace: neighbors
+    word: true
+    propagate_case: true
+  - trigger: oging
+    replace: going
+    word: true
+    propagate_case: true
+  - trigger: oging
+    replace: ogling
+    word: true
+    propagate_case: true
+  - trigger: onot
+    replace: note
+    word: true
+    propagate_case: true
+  - trigger: onot
+    replace: not
+    word: true
+    propagate_case: true
+  - trigger: orgin
+    replace: origin
+    word: true
+    propagate_case: true
+  - trigger: orgin
+    replace: organ
+    word: true
+    propagate_case: true
+  - trigger: performes
+    replace: performed
+    word: true
+    propagate_case: true
+  - trigger: performes
+    replace: performs
+    word: true
+    propagate_case: true
+  - trigger: sieze
+    replace: seize
+    word: true
+    propagate_case: true
+  - trigger: sieze
+    replace: size
+    word: true
+    propagate_case: true
+  - trigger: siezed
+    replace: seized
+    word: true
+    propagate_case: true
+  - trigger: siezed
+    replace: sized
+    word: true
+    propagate_case: true
+  - trigger: siezing
+    replace: seizing
+    word: true
+    propagate_case: true
+  - trigger: siezing
+    replace: sizing
+    word: true
+    propagate_case: true
+  - trigger: sinse
+    replace: sines
+    word: true
+    propagate_case: true
+  - trigger: sinse
+    replace: since
+    word: true
+    propagate_case: true
+  - trigger: imaginery
+    replace: imaginary
+    word: true
+    propagate_case: true
+  - trigger: imaginery
+    replace: imagery
+    word: true
+    propagate_case: true
+  - trigger: moreso
+    replace: more
+    word: true
+    propagate_case: true
+  - trigger: moreso
+    replace: more so
+    word: true
+    propagate_case: true
+  - trigger: imanent
+    replace: eminent
+    word: true
+    propagate_case: true
+  - trigger: imanent
+    replace: imminent
+    word: true
+    propagate_case: true
+  - trigger: imigrant
+    replace: emigrant
+    word: true
+    propagate_case: true
+  - trigger: imigrant
+    replace: immigrant
+    word: true
+    propagate_case: true
+  - trigger: imigrated
+    replace: emigrated
+    word: true
+    propagate_case: true
+  - trigger: imigrated
+    replace: immigrated
+    word: true
+    propagate_case: true
+  - trigger: imigration
+    replace: emigration
+    word: true
+    propagate_case: true
+  - trigger: imigration
+    replace: immigration
+    word: true
+    propagate_case: true
+  - trigger: iminent
+    replace: eminent
+    word: true
+    propagate_case: true
+  - trigger: iminent
+    replace: imminent, immanent
+    word: true
+    propagate_case: true
+  - trigger: idesa
+    replace: ideas
+    word: true
+    propagate_case: true
+  - trigger: idesa
+    replace: ides
+    word: true
+    propagate_case: true
+  - trigger: instutions
+    replace: institutions
+    word: true
+    propagate_case: true
+  - trigger: instutions
+    replace: intuitions
+    word: true
+    propagate_case: true
+  - trigger: intented
+    replace: intended
+    word: true
+    propagate_case: true
+  - trigger: intented
+    replace: indented
+    word: true
+    propagate_case: true
+  - trigger: interbread
+    replace: interbreed
+    word: true
+    propagate_case: true
+  - trigger: interbread
+    replace: interbred
+    word: true
+    propagate_case: true
+  - trigger: intered
+    replace: interred
+    word: true
+    propagate_case: true
+  - trigger: intered
+    replace: interned
+    word: true
+    propagate_case: true
+  - trigger: labatory
+    replace: lavatory
+    word: true
+    propagate_case: true
+  - trigger: labatory
+    replace: laboratory
+    word: true
+    propagate_case: true
+  - trigger: labled
+    replace: labelled
+    word: true
+    propagate_case: true
+  - trigger: labled
+    replace: labeled
+    word: true
+    propagate_case: true
+  - trigger: launchs
+    replace: launch
+    word: true
+    propagate_case: true
+  - trigger: launchs
+    replace: launches
+    word: true
+    propagate_case: true
+  - trigger: leanr
+    replace: lean
+    word: true
+    propagate_case: true
+  - trigger: leanr
+    replace: learn, leaner
+    word: true
+    propagate_case: true
+  - trigger: lonly
+    replace: lonely
+    word: true
+    propagate_case: true
+  - trigger: lonly
+    replace: only
+    word: true
+    propagate_case: true
+  - trigger: maching
+    replace: machine
+    word: true
+    propagate_case: true
+  - trigger: maching
+    replace: marching, matching
+    word: true
+    propagate_case: true
+  - trigger: lible
+    replace: libel
+    word: true
+    propagate_case: true
+  - trigger: lible
+    replace: liable
+    word: true
+    propagate_case: true
+  - trigger: liscense
+    replace: license
+    word: true
+    propagate_case: true
+  - trigger: liscense
+    replace: licence
+    word: true
+    propagate_case: true
+  - trigger: lisence
+    replace: license
+    word: true
+    propagate_case: true
+  - trigger: lisence
+    replace: licence
+    word: true
+    propagate_case: true
+  - trigger: lisense
+    replace: license
+    word: true
+    propagate_case: true
+  - trigger: lisense
+    replace: licence
+    word: true
+    propagate_case: true
+  - trigger: originall
+    replace: original
+    word: true
+    propagate_case: true
+  - trigger: originall
+    replace: originally
+    word: true
+    propagate_case: true
+  - trigger: palce
+    replace: place
+    word: true
+    propagate_case: true
+  - trigger: palce
+    replace: palace
+    word: true
+    propagate_case: true
+  - trigger: housr
+    replace: hours
+    word: true
+    propagate_case: true
+  - trigger: housr
+    replace: house
+    word: true
+    propagate_case: true
+  - trigger: hten
+    replace: then
+    word: true
+    propagate_case: true
+  - trigger: hten
+    replace: hen, the
+    word: true
+    propagate_case: true
+  - trigger: htere
+    replace: there
+    word: true
+    propagate_case: true
+  - trigger: htere
+    replace: here
+    word: true
+    propagate_case: true
+  - trigger: inheritage
+    replace: heritage
+    word: true
+    propagate_case: true
+  - trigger: inheritage
+    replace: inheritance
+    word: true
+    propagate_case: true
+  - trigger: inspite
+    replace: spite
+    word: true
+    propagate_case: true
+  - trigger: inspite
+    replace: inspire
+    word: true
+    propagate_case: true
+  - trigger: haev
+    replace: have
+    word: true
+    propagate_case: true
+  - trigger: haev
+    replace: heave
+    word: true
+    propagate_case: true
+  - trigger: humer
+    replace: humor
+    word: true
+    propagate_case: true
+  - trigger: humer
+    replace: humour
+    word: true
+    propagate_case: true
+  - trigger: humerous
+    replace: humorous
+    word: true
+    propagate_case: true
+  - trigger: humerous
+    replace: humerus
+    word: true
+    propagate_case: true
+  - trigger: hvea
+    replace: have
+    word: true
+    propagate_case: true
+  - trigger: hvea
+    replace: heave
+    word: true
+    propagate_case: true
+  - trigger: fleed
+    replace: fled
+    word: true
+    propagate_case: true
+  - trigger: fleed
+    replace: freed
+    word: true
+    propagate_case: true
+  - trigger: fomr
+    replace: from
+    word: true
+    propagate_case: true
+  - trigger: fomr
+    replace: form
+    word: true
+    propagate_case: true
+  - trigger: futhroc
+    replace: futhark
+    word: true
+    propagate_case: true
+  - trigger: futhroc
+    replace: futhorc
+    word: true
+    propagate_case: true
+  - trigger: gae
+    replace: game
+    word: true
+    propagate_case: true
+  - trigger: gae
+    replace: Gael, gale
+    word: true
+    propagate_case: true
+  - trigger: firts
+    replace: flirts
+    word: true
+    propagate_case: true
+  - trigger: firts
+    replace: first
+    word: true
+    propagate_case: true
+  - trigger: gogin
+    replace: going
+    word: true
+    propagate_case: true
+  - trigger: gogin
+    replace: Gauguin
+    word: true
+    propagate_case: true
+  - trigger: formaly
+    replace: formally
+    word: true
+    propagate_case: true
+  - trigger: formaly
+    replace: formerly
+    word: true
+    propagate_case: true
+  - trigger: gaurd
+    replace: guard
+    word: true
+    propagate_case: true
+  - trigger: gaurd
+    replace: gourd
+    word: true
+    propagate_case: true
+  - trigger: fiel
+    replace: feel
+    word: true
+    propagate_case: true
+  - trigger: fiel
+    replace: field, file, phial
+    word: true
+    propagate_case: true
+  - trigger: fiels
+    replace: feels
+    word: true
+    propagate_case: true
+  - trigger: fiels
+    replace: fields, files, phials
+    word: true
+    propagate_case: true
+  - trigger: Guaduloupe
+    replace: Guadalupe
+    word: true
+    propagate_case: true
+  - trigger: Guaduloupe
+    replace: Guadeloupe
+    word: true
+    propagate_case: true
+  - trigger: Guadulupe
+    replace: Guadalupe
+    word: true
+    propagate_case: true
+  - trigger: Guadulupe
+    replace: Guadeloupe
+    word: true
+    propagate_case: true
+  - trigger: herad
+    replace: heard
+    word: true
+    propagate_case: true
+  - trigger: herad
+    replace: Hera
+    word: true
+    propagate_case: true
+  - trigger: inumerable
+    replace: enumerable
+    word: true
+    propagate_case: true
+  - trigger: inumerable
+    replace: innumerable
+    word: true
+    propagate_case: true
+  - trigger: extint
+    replace: extinct
+    word: true
+    propagate_case: true
+  - trigger: extint
+    replace: extant
+    word: true
+    propagate_case: true
+  - trigger: eyar
+    replace: year
+    word: true
+    propagate_case: true
+  - trigger: eyar
+    replace: eyas
+    word: true
+    propagate_case: true
+  - trigger: eyars
+    replace: years
+    word: true
+    propagate_case: true
+  - trigger: eyars
+    replace: eyas
+    word: true
+    propagate_case: true
+  - trigger: eyasr
+    replace: years
+    word: true
+    propagate_case: true
+  - trigger: eyasr
+    replace: eyas
+    word: true
+    propagate_case: true
+  - trigger: eigth
+    replace: eighth
+    word: true
+    propagate_case: true
+  - trigger: eigth
+    replace: eight
+    word: true
+    propagate_case: true
+  - trigger: efford
+    replace: effort
+    word: true
+    propagate_case: true
+  - trigger: efford
+    replace: afford
+    word: true
+    propagate_case: true
+  - trigger: effords
+    replace: efforts
+    word: true
+    propagate_case: true
+  - trigger: effords
+    replace: affords
+    word: true
+    propagate_case: true
+  - trigger: electic
+    replace: eclectic
+    word: true
+    propagate_case: true
+  - trigger: electic
+    replace: electric
+    word: true
+    propagate_case: true
+  - trigger: electon
+    replace: election
+    word: true
+    propagate_case: true
+  - trigger: electon
+    replace: electron
+    word: true
+    propagate_case: true
+  - trigger: Enlish
+    replace: English
+    word: true
+    propagate_case: true
+  - trigger: Enlish
+    replace: enlist
+    word: true
+    propagate_case: true
+  - trigger: empirial
+    replace: empirical
+    word: true
+    propagate_case: true
+  - trigger: empirial
+    replace: imperial
+    word: true
+    propagate_case: true
+  - trigger: erally
+    replace: orally
+    word: true
+    propagate_case: true
+  - trigger: erally
+    replace: really
+    word: true
+    propagate_case: true
+  - trigger: erested
+    replace: arrested
+    word: true
+    propagate_case: true
+  - trigger: erested
+    replace: erected
+    word: true
+    propagate_case: true
+  - trigger: ethose
+    replace: those
+    word: true
+    propagate_case: true
+  - trigger: ethose
+    replace: ethos
+    word: true
+    propagate_case: true
+  - trigger: emition
+    replace: emission
+    word: true
+    propagate_case: true
+  - trigger: emition
+    replace: emotion
+    word: true
+    propagate_case: true
+  #- trigger: emmediately
+  #  immediately
+  #    replace: rigger: emmigrated
+  #    word: true
+  #    propagate_case: true
+  #  replace: emigrated
+  #  word: true
+  #  propagate_case: true
+  - trigger: emmigrated
+    replace: immigrated
+    word: true
+    propagate_case: true
+  - trigger: emminent
+    replace: eminent
+    word: true
+    propagate_case: true
+  - trigger: emminent
+    replace: imminent
+    word: true
+    propagate_case: true
+  - trigger: diversed
+    replace: diverse
+    word: true
+    propagate_case: true
+  - trigger: diversed
+    replace: diverged
+    word: true
+    propagate_case: true
+  - trigger: doub
+    replace: doubt
+    word: true
+    propagate_case: true
+  - trigger: doub
+    replace: daub
+    word: true
+    propagate_case: true
+  - trigger: diea
+    replace: idea
+    word: true
+    propagate_case: true
+  - trigger: diea
+    replace: die
+    word: true
+    propagate_case: true
+  - trigger: dieing
+    replace: dying
+    word: true
+    propagate_case: true
+  - trigger: dieing
+    replace: dyeing
+    word: true
+    propagate_case: true
+  - trigger: desparate
+    replace: desperate
+    word: true
+    propagate_case: true
+  - trigger: desparate
+    replace: disparate
+    word: true
+    propagate_case: true
+  - trigger: deram
+    replace: dram
+    word: true
+    propagate_case: true
+  - trigger: deram
+    replace: dream
+    word: true
+    propagate_case: true
+  - trigger: boaut
+    replace: bout
+    word: true
+    propagate_case: true
+  - trigger: boaut
+    replace: boat, about
+    word: true
+    propagate_case: true
+  - trigger: buring
+    replace: burying
+    word: true
+    propagate_case: true
+  - trigger: buring
+    replace: burning
+    word: true
+    propagate_case: true
+    #, burin, during
+  - trigger: busineses
+    replace: business
+    word: true
+    propagate_case: true
+  - trigger: busineses
+    replace: businesses
+    word: true
+    propagate_case: true
+  - trigger: calander
+    replace: calendar
+    word: true
+    propagate_case: true
+  - trigger: calander
+    replace: colander
+    word: true
+    propagate_case: true
+  - trigger: calander
+    replace: colander
+    word: true
+    propagate_case: true
+  - trigger: carcas
+    replace: carcass
+    word: true
+    propagate_case: true
+  - trigger: carcas
+    replace: Caracas
+    word: true
+    propagate_case: true
+  - trigger: carnege
+    replace: carnage
+    word: true
+    propagate_case: true
+  - trigger: carnege
+    replace: Carnegie
+    word: true
+    propagate_case: true
+  - trigger: carnige
+    replace: carnage
+    word: true
+    propagate_case: true
+  - trigger: carnige
+    replace: Carnegie
+    word: true
+    propagate_case: true
+  - trigger: Cataline
+    replace: Catiline
+    word: true
+    propagate_case: true
+  - trigger: Cataline
+    replace: Catalina
+    word: true
+    propagate_case: true
+  - trigger: censur
+    replace: censor
+    word: true
+    propagate_case: true
+  - trigger: censur
+    replace: censure
+    word: true
+    propagate_case: true
+  - trigger: ceratin
+    replace: certain
+    word: true
+    propagate_case: true
+  - trigger: ceratin
+    replace: keratin
+    word: true
+    propagate_case: true
+  - trigger: cervial
+    replace: cervical
+    word: true
+    propagate_case: true
+  - trigger: cervial
+    replace: servile, serval
+    word: true
+    propagate_case: true
+  - trigger: clera
+    replace: clear
+    word: true
+    propagate_case: true
+  - trigger: clera
+    replace: sclera
+    word: true
+    propagate_case: true
+  - trigger: comander
+    replace: commander
+    word: true
+    propagate_case: true
+  - trigger: comander
+    replace: commandeer
+    word: true
+    propagate_case: true
+  - trigger: competion
+    replace: competition
+    word: true
+    propagate_case: true
+  - trigger: competion
+    replace: completion
+    word: true
+    propagate_case: true
+  - trigger: dael
+    replace: deal
+    word: true
+    propagate_case: true
+  - trigger: dael
+    replace: dial, dahl
+    word: true
+    propagate_case: true
+  - trigger: belived
+    replace: believed
+    word: true
+    propagate_case: true
+  - trigger: belived
+    replace: beloved
+    word: true
+    propagate_case: true
+  - trigger: belives
+    replace: believes
+    word: true
+    propagate_case: true
+  - trigger: belives
+    replace: beliefs
+    word: true
+    propagate_case: true
+  - trigger: behavour
+    replace: behavior
+    word: true
+    propagate_case: true
+  - trigger: behavour
+    replace: behaviour
+    word: true
+    propagate_case: true
+  - trigger: beggin
+    replace: begin
+    word: true
+    propagate_case: true
+  - trigger: beggin
+    replace: begging
+    word: true
+    propagate_case: true
+  - trigger: becames
+    replace: becomes
+    word: true
+    propagate_case: true
+  - trigger: becames
+    replace: became
+    word: true
+    propagate_case: true
+  - trigger: baout
+    replace: about
+    word: true
+    propagate_case: true
+  - trigger: baout
+    replace: bout
+    word: true
+    propagate_case: true
+  - trigger: archaoelogy
+    replace: archeology
+    word: true
+    propagate_case: true
+  - trigger: archaoelogy
+    replace: archaeology
+    word: true
+    propagate_case: true
+  - trigger: archaology
+    replace: archeology
+    word: true
+    propagate_case: true
+  - trigger: archaology
+    replace: archaeology
+    word: true
+    propagate_case: true
+  - trigger: archeaologists
+    replace: archeologists
+    word: true
+    propagate_case: true
+  - trigger: archeaologists
+    replace: archaeologists
+    word: true
+    propagate_case: true
+  - trigger: appenines
+    replace: apennines
+    word: true
+    propagate_case: true
+  - trigger: appenines
+    replace: Apennines
+    word: true
+    propagate_case: true
+  - trigger: appealling
+    replace: appealing
+    word: true
+    propagate_case: true
+  - trigger: appealling
+    replace: appalling
+    word: true
+    propagate_case: true
+  - trigger: apenines
+    replace: apennines
+    word: true
+    propagate_case: true
+  - trigger: apenines
+    replace: Apennines
+    word: true
+    propagate_case: true
+  - trigger: apon
+    replace: upon
+    word: true
+    propagate_case: true
+  - trigger: apon
+    replace: apron
+    word: true
+    propagate_case: true
+  - trigger: attaindre
+    replace: attainder
+    word: true
+    propagate_case: true
+  - trigger: attaindre
+    replace: attained
+    word: true
+    propagate_case: true
+  - trigger: chasr
+    replace: chaser
+    word: true
+    propagate_case: true
+  - trigger: chasr
+    replace: chase
+    word: true
+    propagate_case: true

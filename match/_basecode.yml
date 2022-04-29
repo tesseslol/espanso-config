@@ -1,0 +1,11 @@
+
+
+matches:
+  - trigger: ":dir"
+    replace: "{{currentdir}}"
+    vars:
+      - name: currentdir
+        type: shell
+        debug: true
+        params:
+          cmd: "echo {{workdir}}"

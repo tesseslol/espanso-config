@@ -1,0 +1,81 @@
+global_vars:
+  - name: Everything
+    type: echo
+    params:
+      echo: "C:\\Program Files\\Everything\\Everything.exe"
+
+matches:
+  - triggers: [":ggle", ":google", ":gg"]
+    replace: "{{output}}"
+    word: true
+    vars:
+      - name: "clipboard"
+        type: "clipboard"
+      - name: output
+        type: shell
+        params:
+          cmd: "rundll32 url.dll,FileProtocolHandler https://google.com/search?q={{clipboard}}"
+
+  - triggers: [":search", ":gf"]
+    replace: "{{output}}"
+    word: true
+    vars:
+      - name: "form1"
+        type: form
+        params:
+          layout: |
+                Testo da ricercare in google:
+                [[text]]
+        form_fields:
+            text:
+              multiline: true
+      - name: output
+        type: shell
+        params:
+          cmd: "rundll32 url.dll,FileProtocolHandler https://google.com/search?q={{form1.text}}"
+
+  - triggers: [":code", ":searchcode", ":sc"]
+    label: "Search Code in SearchCode"
+    replace: "{{output}}"
+    word: true
+    vars:
+      - name: "clipboard"
+        type: "clipboard"
+      - name: output
+        type: shell
+        params:
+          cmd: "rundll32 url.dll,FileProtocolHandler https://searchcode.com/?q={{clipboard}}"
+
+  - triggers: [":code", ":sourcegraph", ":sg"]
+    label: "Search code in sourcegraph"
+    replace: "{{output}}"
+    word: true
+    vars:
+      - name: "clipboard"
+        type: "clipboard"
+      - name: output
+        type: shell
+        params:
+          cmd: "rundll32 url.dll,FileProtocolHandler https://sourcegraph.com/search?q=context:global+{clipboard}&patternType=literal"
+
+
+  - triggers: [":github", ":gthb", ":gh"]
+    replace: "{{output}}"
+    word: true
+    vars:
+      - name: "clipboard"
+        type: "clipboard"
+      - name: output
+        type: shell
+        params:
+          cmd: "rundll32 url.dll,FileProtocolHandler https://github.com/search?q={{clipboard}}"
+
+
+  - triggers: [":file", ":everything", ":sf", ":f"]
+    replace: "{{output2}}"
+    word: true
+    vars:
+      - name: output2
+        type: shell
+        params:
+          cmd: 'start "{{Everything}}"'

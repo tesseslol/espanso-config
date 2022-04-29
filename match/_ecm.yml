@@ -1,0 +1,5 @@
+global_vars:
+  - name: workdir
+    type: echo
+    params:
+      echo: "C:\\Users\\davtes\\Documents\\ecm\\Discovery-ECM"
