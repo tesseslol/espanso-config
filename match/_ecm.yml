@@ -1,4 +1,5 @@
 
+
 global_vars:
   - name: workdir
     type: echo
