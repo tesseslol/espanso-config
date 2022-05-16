@@ -72,7 +72,7 @@ matches:
       - name: output
         type: shell
         params:
-          cmd: "rundll32 url.dll,FileProtocolHandler https://github.com/search?q={{clipboard}}"
+          cmd: "explorer https://github.com/search?q={{clipboard}}"
 
 
   - triggers: [":file", ":everything", ":sf", ":f"]
