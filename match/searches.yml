@@ -84,6 +84,7 @@ matches:
         params:
           cmd: 'start "{{Everything}}"'
 
+  # todo: creare un modo per aprire i file a seconda dell'applicazione attiva'
   - triggers: [":notion", ":n"]
     replace: "{{output2}}"
     word: true
