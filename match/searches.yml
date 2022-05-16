@@ -60,7 +60,7 @@ matches:
       - name: output
         type: shell
         params:
-          cmd: "rundll32 url.dll,FileProtocolHandler https://sourcegraph.com/search?q=context:global+{clipboard}&patternType=literal"
+          cmd: "explorer url.dll,FileProtocolHandler https://sourcegraph.com/search?q=context:global+{clipboard}&patternType=literal"
 
 
   - triggers: [":github", ":gthb", ":gh"]
