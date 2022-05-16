@@ -3,6 +3,10 @@ global_vars:
     type: echo
     params:
       echo: "C:\\Program Files\\Everything\\Everything.exe"
+  - name: Notion
+    type: echo
+    params:
+      echo: "C:\\Users\\davtes\\AppData\\Local\\Programs\\Notion\\Notion.exe"
 
 matches:
   - triggers: [":ggle", ":google", ":gg"]
@@ -14,7 +18,7 @@ matches:
       - name: output
         type: shell
         params:
-          cmd: "rundll32 url.dll,FileProtocolHandler https://google.com/search?q={{clipboard}}"
+          cmd: "explorer https://google.com/search?q={{clipboard}}"
 
   - triggers: [":search", ":gf"]
     replace: "{{output}}"
@@ -32,7 +36,7 @@ matches:
       - name: output
         type: shell
         params:
-          cmd: "rundll32 url.dll,FileProtocolHandler https://google.com/search?q={{form1.text}}"
+          cmd: "explorer https://google.com/search?q={{form1.text}}"
 
   - triggers: [":code", ":searchcode", ":sc"]
     label: "Search Code in SearchCode"
@@ -44,7 +48,7 @@ matches:
       - name: output
         type: shell
         params:
-          cmd: "rundll32 url.dll,FileProtocolHandler https://searchcode.com/?q={{clipboard}}"
+          cmd: "explorer https://searchcode.com/?q={{clipboard}}"
 
   - triggers: [":code", ":sourcegraph", ":sg"]
     label: "Search code in sourcegraph"
@@ -79,3 +83,12 @@ matches:
         type: shell
         params:
           cmd: 'start "{{Everything}}"'
+
+  - triggers: [":notion", ":n"]
+    replace: "{{output2}}"
+    word: true
+    vars:
+      - name: output2
+        type: shell
+        params:
+          cmd: 'start "{{Notion}}" https://www.notion.so/test2-8adfcbe78f8a4a10b37e133d41a6f0ad'
