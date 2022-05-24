@@ -1,5 +1,5 @@
 matches:
   - trigger: "find-dir"
-    replace: "find . -type d -name [[directory]]"
+    form: "find . -type d -name [[directory]]"
 
 # find-dir
