@@ -1,0 +1,4 @@
+matches:
+  - triggers: ["find-dir"]
+    label: "Ricerca una cartella"
+    replace: "find / -type d -name [[directory]]"
